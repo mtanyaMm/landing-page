@@ -1,6 +1,6 @@
 name: Build and Release
 push:
-  branches ["main"]
+  branches ["master"]
 workflow_dispatch:
 jobs:
   build:
