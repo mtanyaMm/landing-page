@@ -1,0 +1,103 @@
+body {
+  margin: 0;
+}
+
+main {
+  background-image: url("./src/assets/heroScreenImg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 0;
+}
+
+.wrap-dark-img {
+  background-color: black;
+  opacity: 70%;
+  position: relative;
+  z-index: 1;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title-wrap {
+  font-family: "Open Sans", sans-serif;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  z-index: 2;
+  color: white;
+}
+
+.title h1 {
+  margin: 0;
+  font-size: 5em;
+}
+
+.title span {
+  font-family: "Kaushan Script", cursive;
+  color: #f2b705;
+}
+
+.second-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  z-index: 2;
+  color: white;
+  margin: 3em 0 8em 0;
+}
+
+.second-title span {
+  color: #f2b705;
+  font-weight: bold;
+}
+
+.second-title h3 {
+  margin: 0;
+  font-weight: normal;
+  font-size: 3em;
+}
+
+@media (max-width: 1440px) {
+  .second-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .second-title h3 {
+    font-size: 2em;
+  }
+}
+
+@media (max-width: 768px) {
+  .title h1 {
+    font-size: 2em;
+  }
+
+  .second-title h3 {
+    font-size: 1em;
+  }
+}
+
+@media (max-width: 650px) {
+  .title h1 {
+    font-size: 2em;
+  }
+
+  .second-title h3 {
+    font-size: 1em;
+  }
+}
