@@ -3,7 +3,7 @@ body {
 }
 
 main {
-  background-image: url("./src/assets/heroScreenImg.png");
+  background-image: url("../assets/heroScreenImg.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

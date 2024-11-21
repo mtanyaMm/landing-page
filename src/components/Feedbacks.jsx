@@ -4,13 +4,13 @@ export default function Feedbacks() {
       name: "Kate Evans",
       comment:
         "The best language learning experience I've ever had! The lessons are engaging, and the teachers are incredibly supportive.",
-      photo: "./src/assets/firstFeedback.png",
+      photo: "../assets/firstFeedback.png",
     },
     {
       name: "Tom Clark",
       comment:
         "I highly recommend these English courses! The teachers are incredibly supportive, and the lessons are always engaging.",
-      photo: "./src/assets/secondFeedback.png",
+      photo: "../assets/secondFeedback.png",
     },
   ];
 
@@ -20,7 +20,7 @@ export default function Feedbacks() {
         <div className="main-part">
           <img src={feedbacks[0].photo} alt="first person" />
           <p className="name">{feedbacks[0].name}</p>
-          <img src="./src/assets/firstStars.svg" alt="five stars" />
+          <img src="../assets/firstStars.svg" alt="five stars" />
         </div>
 
         <div className="text-feedback">
@@ -32,7 +32,7 @@ export default function Feedbacks() {
         <div className="main-part">
           <img src={feedbacks[1].photo} alt="second person" />
           <p className="name">{feedbacks[1].name}</p>
-          <img src="./src/assets/secondStars.svg" alt="four stars" />
+          <img src="../assets/secondStars.svg" alt="four stars" />
         </div>
 
         <div className="text-feedback">

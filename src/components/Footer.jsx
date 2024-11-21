@@ -1,13 +1,13 @@
 export default function Footer() {
   return (
     <footer id="footer">
-      <img src="./src/assets/logo.svg" alt="logo" />
+      <img src="../assets/logo.svg" alt="logo" />
       <div className="footer-content">
         <h1>Join us!</h1>
         <div className="social_media">
-          <img src="./src/assets/instagram.svg" alt="instagram" />
-          <img src="./src/assets/tik_tok.svg" alt="tik tok" />
-          <img src="./src/assets/facebook.svg" alt="facebook" />
+          <img src="../assets/instagram.svg" alt="instagram" />
+          <img src="../assets/tik_tok.svg" alt="tik tok" />
+          <img src="../assets/facebook.svg" alt="facebook" />
         </div>
         <nav className="menu footer-menu">
           <li>

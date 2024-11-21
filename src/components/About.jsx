@@ -14,7 +14,7 @@ export default function About() {
             pace, focusing on areas that need the most attention.{" "}
           </p>
         </div>
-        <img src="./src/assets/about.png" alt="about image" />
+        <img src="../assets/about.png" alt="about image" />
       </div>
     </section>
   );

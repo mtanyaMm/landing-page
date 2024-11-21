@@ -7,7 +7,7 @@ export default function WhyUs() {
 
   return (
     <section className="why-us-wrap" id="advantages">
-      <img src="./src/assets/whyUs.png" alt="image" />
+      <img src="../assets/whyUs.png" alt="image" />
       <div className="text">
         <h1>
           <span>Why</span> us?

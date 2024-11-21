@@ -16,7 +16,7 @@ export default function Prices() {
         ],
         targetLevel: "A1",
       },
-      photo: "./src/assets/first_photo.jpg",
+      photo: "../assets/first_photo.jpg",
     },
     {
       name: "Pro",
@@ -32,7 +32,7 @@ export default function Prices() {
         ],
         targetLevel: "B1-B2",
       },
-      photo: "./src/assets/second_photo.jpg",
+      photo: "../assets/second_photo.jpg",
     },
     {
       name: "Elit",
@@ -48,7 +48,7 @@ export default function Prices() {
         ],
         targetLevel: "C1",
       },
-      photo: "./src/assets/third_photo.jpg",
+      photo: "../assets/third_photo.jpg",
     },
   ]);
 
