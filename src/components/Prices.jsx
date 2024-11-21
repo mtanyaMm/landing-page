@@ -1,4 +1,7 @@
 import React, { useState } from "react";
+import firstPhoto from "../assets/first_photo.jpg";
+import secondPhoto from "../assets/second_photo.jpg";
+import thirdPhoto from "../assets/third_photo.jpg";
 
 export default function Prices() {
   const [prices, setPrices] = useState([
@@ -16,7 +19,7 @@ export default function Prices() {
         ],
         targetLevel: "A1",
       },
-      photo: "../assets/first_photo.jpg",
+      photo: { firstPhoto },
     },
     {
       name: "Pro",
@@ -32,7 +35,7 @@ export default function Prices() {
         ],
         targetLevel: "B1-B2",
       },
-      photo: "../assets/second_photo.jpg",
+      photo: { secondPhoto },
     },
     {
       name: "Elit",
@@ -48,7 +51,7 @@ export default function Prices() {
         ],
         targetLevel: "C1",
       },
-      photo: "../assets/third_photo.jpg",
+      photo: { thirdPhoto },
     },
   ]);
 

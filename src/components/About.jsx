@@ -1,4 +1,4 @@
-import about from '../assets/about.png'
+import about from "../assets/about.png";
 
 export default function About() {
   return (

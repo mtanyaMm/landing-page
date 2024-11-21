@@ -1,7 +1,7 @@
-import firstFeedback from '../assets/firstFeedback.png'
-import secondFeedback from '../assets/secondFeedback.png'
-import firstStar from '../assets/firstStars.svg.png'
-import secondStar from '../assets/secondStars.svg.png'
+import firstFeedback from "../assets/firstFeedback.png";
+import secondFeedback from "../assets/secondFeedback.png";
+import firstStar from "../assets/firstStars.svg";
+import secondStar from "../assets/secondStars.svg";
 
 export default function Feedbacks() {
   const feedbacks = [
@@ -9,13 +9,13 @@ export default function Feedbacks() {
       name: "Kate Evans",
       comment:
         "The best language learning experience I've ever had! The lessons are engaging, and the teachers are incredibly supportive.",
-      photo: {firstFeedback},
+      photo: { firstFeedback },
     },
     {
       name: "Tom Clark",
       comment:
         "I highly recommend these English courses! The teachers are incredibly supportive, and the lessons are always engaging.",
-      photo: {secondFeedback},
+      photo: { secondFeedback },
     },
   ];
 

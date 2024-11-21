@@ -1,3 +1,5 @@
+import whyUs from "../assets/whyUs.png";
+
 export default function WhyUs() {
   const listWhyUs = [
     "Modern teaching methods",
@@ -7,7 +9,7 @@ export default function WhyUs() {
 
   return (
     <section className="why-us-wrap" id="advantages">
-      <img src="../assets/whyUs.png" alt="image" />
+      <img src={whyUs} alt="image" />
       <div className="text">
         <h1>
           <span>Why</span> us?

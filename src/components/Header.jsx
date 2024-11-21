@@ -1,11 +1,10 @@
 import React, { useState } from "react";
-import logo from '../assets/logo.svg'
+import logo from "../assets/logo.svg";
 
 export default function Header() {
-
   const [isMessageVisible, setIsMessageVisible] = useState(false);
 
-  function handleButton(){
+  function handleButton() {
     setIsMessageVisible(!isMessageVisible);
   }
 
@@ -29,12 +28,15 @@ export default function Header() {
           <a href="#footer">Contacts</a>
         </li>
       </nav>
-      <button className="btn" onClick={handleButton}>Get free lesson</button>
+      <button className="btn" onClick={handleButton}>
+        Get free lesson
+      </button>
 
       {isMessageVisible && (
         <div className="overlay">
           <div className="message">
-            Call us at: <strong>+38 000 000 00 00</strong> <br/>to book your <span className="free">free</span> lesson!
+            Call us at: <strong>+38 000 000 00 00</strong> <br />
+            to book your <span className="free">free</span> lesson!
           </div>
         </div>
       )}
