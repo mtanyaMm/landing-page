@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import logo from '../assets/logo.svg'
 
 export default function Header() {
 
@@ -11,7 +10,7 @@ export default function Header() {
 
   return (
     <header>
-      <img src={logo} alt="logo" className="logo" />
+      <img src="../assets/logo.svg" alt="logo" className="logo" />
       <nav className="menu">
         <li>
           <a href="#advantages">Advantages</a>
