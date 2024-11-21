@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import logo from "./src/assets/logo.svg"
+import logo from '../assets/logo.svg'
 
 export default function Header() {
 
