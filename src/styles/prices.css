@@ -1,7 +1,7 @@
 .container {
   display: flex;
   justify-content: center;
-  margin: 80px 100px;
+  margin: 80px 0;
   font-family: "Open Sans", sans-serif;
   align-items: center;
   width: 100%;
@@ -116,7 +116,7 @@
 @media (max-width: 768px) {
   .container {
     display: flex;
-    margin: 50px 20px;
+    margin: 50px 0;
     justify-content: center;
   }
 
