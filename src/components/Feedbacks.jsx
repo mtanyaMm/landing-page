@@ -9,13 +9,13 @@ export default function Feedbacks() {
       name: "Kate Evans",
       comment:
         "The best language learning experience I've ever had! The lessons are engaging, and the teachers are incredibly supportive.",
-      photo: { firstFeedback },
+      photo: {firstFeedback},
     },
     {
       name: "Tom Clark",
       comment:
         "I highly recommend these English courses! The teachers are incredibly supportive, and the lessons are always engaging.",
-      photo: { secondFeedback },
+      photo: {secondFeedback},
     },
   ];
 
