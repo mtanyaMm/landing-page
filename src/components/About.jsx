@@ -1,3 +1,5 @@
+import about from '../assets/about.png'
+
 export default function About() {
   return (
     <section id="about">
@@ -14,7 +16,7 @@ export default function About() {
             pace, focusing on areas that need the most attention.{" "}
           </p>
         </div>
-        <img src="../assets/about.png" alt="about image" />
+        <img src={about} alt="about image" />
       </div>
     </section>
   );

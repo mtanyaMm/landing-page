@@ -1,16 +1,21 @@
+import firstFeedback from '../assets/firstFeedback.png'
+import secondFeedback from '../assets/secondFeedback.png'
+import firstStar from '../assets/firstStars.svg.png'
+import secondStar from '../assets/secondStars.svg.png'
+
 export default function Feedbacks() {
   const feedbacks = [
     {
       name: "Kate Evans",
       comment:
         "The best language learning experience I've ever had! The lessons are engaging, and the teachers are incredibly supportive.",
-      photo: "../assets/firstFeedback.png",
+      photo: {firstFeedback},
     },
     {
       name: "Tom Clark",
       comment:
         "I highly recommend these English courses! The teachers are incredibly supportive, and the lessons are always engaging.",
-      photo: "../assets/secondFeedback.png",
+      photo: {secondFeedback},
     },
   ];
 
@@ -20,7 +25,7 @@ export default function Feedbacks() {
         <div className="main-part">
           <img src={feedbacks[0].photo} alt="first person" />
           <p className="name">{feedbacks[0].name}</p>
-          <img src="../assets/firstStars.svg" alt="five stars" />
+          <img src={firstStar} alt="five stars" />
         </div>
 
         <div className="text-feedback">
@@ -32,7 +37,7 @@ export default function Feedbacks() {
         <div className="main-part">
           <img src={feedbacks[1].photo} alt="second person" />
           <p className="name">{feedbacks[1].name}</p>
-          <img src="../assets/secondStars.svg" alt="four stars" />
+          <img src={secondStar} alt="four stars" />
         </div>
 
         <div className="text-feedback">
