@@ -5,6 +5,7 @@ header {
   margin: 0 3em;
   align-items: center;
   font-size: 1.5em;
+  background-color: white;
 }
 
 .menu {
@@ -30,6 +31,7 @@ header {
 
 .btn {
   background-color: #f2b705;
+  color: black;
   border-radius: 10px;
   border: none;
   font-size: 1em;
